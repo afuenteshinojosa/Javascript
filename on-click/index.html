@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="./js/index.css">
+</head>
+<body>
+    <div class="barra">
+        <h1 class="Dojonary">Dojonary</h1>
+            <input type="text"  name="search" placeholder="Search" class="search"></input>
+            <div class="boton">
+            <button class="btn" onclick="intentoDeLogin(this)"> Login </button></div>
+        </div>
+    <div class="tarjetas">
+        <div class="tarjetasNinja"> <!-- final de Ninjas-->
+            <div class="primeraSeccion"> <!-- división al final de 1 tarjeta de ninjas-->
+                <div class="Ninja"> <!--después del botón-->
+                    <h2 class="nombreNinja">Ninja</h2>
+                    <p class="noun">noun</p>
+                    <div>plural: ninjas </div>
+                    <div><button class="likes" onclick= "darLikes(this)">13 likes</button></div></div>
+                <div class="Ninja2"> A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a> </div>
+                </div>
+
+            <div class="primeraSeccion"> <!-- división al final de 1 tarjeta de ninjas-->
+                <div class="Ninja"> <!--después del botón-->
+                    <h2 class="nombreNinja">Ninja</h2>
+                    <p class="noun">noun</p>
+                    <div>plural: ninjas </div>
+                    <div><button class="likes" onclick="darLikes2(this)">37 likes</button></div></div>
+                <div class="Ninja2">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus </div>
+            </div> 
+            </div>
+            <div class="tarjetaDefinition">
+            <div class="segundaSeccion">
+                <h3 class="titulo">Dojonary is defined by you</h3>
+                <div><button class="botonDefinicion" onclick="ocultar(this)">Add definition</button></div></div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

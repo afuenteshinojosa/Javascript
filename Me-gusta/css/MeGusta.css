@@ -1,0 +1,61 @@
+body{
+    font-family: "Comic Sans MS";
+    display:grid;
+}
+.barra{
+    background-color: black;
+    color: white;
+}
+.título{
+    margin-left: 30px;
+}
+.feed{
+    text-align: center;
+    color: lightcoral;
+}
+.tarjetas{
+    flex:1;
+    display: inline-flex;
+}
+.tarjeta1{
+    flex: 1;
+    border: 2px solid black;
+    margin-right: 20px;
+    text-align: center;
+    margin-bottom: auto;
+}
+.add{
+    font-size: small;
+}
+.ale{
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.imagen{
+    height: 100px;
+    margin-top: 10px;
+    margin: 20px 20x 20px;
+}
+
+.tarjetas2{
+    flex: 3;
+    display: inline;
+    flex-direction: column;
+}
+.tarjetaA{
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.like{
+    background-color: lightcoral;
+}
+.justificado{
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px;
+    font-weight: bold;
+}
+.parrafo{
+    margin: 5px 5px 5px;
+}
